@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "WXYListView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    WXYListView *listView = [[WXYListView alloc] initWithFrame:CGRectMake(10, 10, 100, 100)];
+    listView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:listView];
 }
 
 

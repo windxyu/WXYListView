@@ -7,33 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1980E1E8202666DC87C21966B01F1E32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		1C5E13501E83CC6A005B48A9 /* WXYListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5E134F1E83CC6A005B48A9 /* WXYListView.m */; };
-		E891A9C8CB7D6CE5F9DB9C04BDE7789E /* Pods-WXYListView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35449193604AABFA148DE1AFFE11A33B /* Pods-WXYListView-dummy.m */; };
+		04845B2364EB194AC8864A9BB2E2AA26 /* WXYListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 442D5BE549F5A0406C964C527F4075D3 /* WXYListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18ADA70003B918BEA78AB2A4EE9633C4 /* WXYListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80191085DA0BABF8B5402A3CD7EEB34B /* WXYListView.m */; };
+		1EDB2EC7C3D7C8FF66CF0BF8639DBC34 /* WXYListView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FE8F74951B10F7D6E980BF57CEB8D4 /* WXYListView-dummy.m */; };
+		25217FBDF16B6D9C73566ECEA6D419B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		A85C74AD798931EB74BD587B380EB582 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		AB19CA89A1C28CAABB7574C549827C56 /* Pods-WXYListView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35449193604AABFA148DE1AFFE11A33B /* Pods-WXYListView-dummy.m */; };
+		B5EDFF2F960998DC27A02F7A9082A91F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18CA9133D01C5CF29918295CE1AF4F4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E39923B0D5FF42B5AD705B0EF5257FE4;
+			remoteInfo = WXYListView;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0AB88913C10F2FAF6A8CC919453FCF43 /* Pods-WXYListView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXYListView.debug.xcconfig"; sourceTree = "<group>"; };
-		1C5E134E1E83CC6A005B48A9 /* WXYListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXYListView.h; sourceTree = "<group>"; };
-		1C5E134F1E83CC6A005B48A9 /* WXYListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXYListView.m; sourceTree = "<group>"; };
-		1C5E13511E83CDCF005B48A9 /* 89.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 89.gif; sourceTree = "<group>"; };
+		15B0CCFBA885D0A329785C029ABE5094 /* 89.gif */ = {isa = PBXFileReference; includeInIndex = 1; path = 89.gif; sourceTree = "<group>"; };
 		24B6E92E4F2E19627BB0658D6B8C302E /* Pods-WXYListView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WXYListView-resources.sh"; sourceTree = "<group>"; };
 		35449193604AABFA148DE1AFFE11A33B /* Pods-WXYListView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WXYListView-dummy.m"; sourceTree = "<group>"; };
 		3F96B49D4A4F4E5E69E806484EE00533 /* Pods-WXYListView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXYListView.release.xcconfig"; sourceTree = "<group>"; };
+		442D5BE549F5A0406C964C527F4075D3 /* WXYListView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXYListView.h; sourceTree = "<group>"; };
 		461BE581D655AE157CC2329D2E5D5FDB /* Pods-WXYListView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WXYListView-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F0EDD37A5D04A1D72394B29BD021408 /* libPods-WXYListView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WXYListView.a"; path = "libPods-WXYListView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6FDD3E68048CB36CE64E1344127B72F5 /* WXYListView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXYListView-prefix.pch"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		80191085DA0BABF8B5402A3CD7EEB34B /* WXYListView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WXYListView.m; sourceTree = "<group>"; };
 		8F7CDD86634F58EC2E8642F245476D9F /* Pods-WXYListView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WXYListView-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0EF1A0EED1945E27C53039A77AFDBA1 /* libPods-WXYListView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WXYListView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AA70488F0DAE52CBFB3CFCA4F3414D87 /* Pods-WXYListView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WXYListView-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C550462AEFCCA87309EBC2FCB7FDA1B4 /* WXYListView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WXYListView.xcconfig; sourceTree = "<group>"; };
+		F0FE8F74951B10F7D6E980BF57CEB8D4 /* WXYListView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXYListView-dummy.m"; sourceTree = "<group>"; };
+		F77AF4DF16C20CC54A478F2B8EDDB786 /* libWXYListView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWXYListView.a; path = libWXYListView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		15A476F0C3857894707705FD4B2ACD31 /* Frameworks */ = {
+		616C15DE843BBF45C83899BE8B69E902 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1980E1E8202666DC87C21966B01F1E32 /* Foundation.framework in Frameworks */,
+				25217FBDF16B6D9C73566ECEA6D419B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87A4819EDBE115DE1D1FB6762573842F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85C74AD798931EB74BD587B380EB582 /* Foundation.framework in Frameworks */,
+				B5EDFF2F960998DC27A02F7A9082A91F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,82 +83,81 @@
 			path = "Target Support Files/Pods-WXYListView";
 			sourceTree = "<group>";
 		};
-		1C5E13481E83CACB005B48A9 /* Development Pods */ = {
+		2444BBE972727B4F97FA5F807DDA1CD4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1C5E13491E83CADF005B48A9 /* WXYListView */,
+				442D5BE549F5A0406C964C527F4075D3 /* WXYListView.h */,
+				80191085DA0BABF8B5402A3CD7EEB34B /* WXYListView.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		27F58170FDBC27104032E857F34AB6B8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29783F5E72C90B7CD43D115D8DADBED8 /* WXYListView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		1C5E13491E83CADF005B48A9 /* WXYListView */ = {
+		29783F5E72C90B7CD43D115D8DADBED8 /* WXYListView */ = {
 			isa = PBXGroup;
 			children = (
-				1C5E134B1E83CC1D005B48A9 /* Pod */,
+				C2A6104667A8EE86F931A4A503FCD834 /* Pod */,
+				F11375D1166926FDBE9A6182D12569C1 /* Resources */,
+				B2387F4E284891391DA47694CBCC2E2B /* Support Files */,
 			);
 			name = WXYListView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		1C5E134B1E83CC1D005B48A9 /* Pod */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1C5E134C1E83CC1D005B48A9 /* Classes */,
-				1C5E134D1E83CC1D005B48A9 /* Resources */,
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44554EAA00ECEFC7275CE35EC24EA3E4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EA8CA67C660E0E145FE99A1010A63E0B /* Resources */,
 			);
 			name = Pod;
-			path = ../../Pod;
-			sourceTree = "<group>";
-		};
-		1C5E134C1E83CC1D005B48A9 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				1C5E134E1E83CC6A005B48A9 /* WXYListView.h */,
-				1C5E134F1E83CC6A005B48A9 /* WXYListView.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		1C5E134D1E83CC1D005B48A9 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				1C5E13511E83CDCF005B48A9 /* 89.gif */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		22BAA5BCBD2A298B5949B3F0AEB8C4AA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A0EF1A0EED1945E27C53039A77AFDBA1 /* libPods-WXYListView.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				1C5E13481E83CACB005B48A9 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				22BAA5BCBD2A298B5949B3F0AEB8C4AA /* Products */,
+				27F58170FDBC27104032E857F34AB6B8 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				E9C2E4B5F0C45FA3BD204475DCF80AB4 /* Products */,
 				C98D81932AE57FF5C1B1F2D44873A37E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		B2387F4E284891391DA47694CBCC2E2B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				C550462AEFCCA87309EBC2FCB7FDA1B4 /* WXYListView.xcconfig */,
+				F0FE8F74951B10F7D6E980BF57CEB8D4 /* WXYListView-dummy.m */,
+				6FDD3E68048CB36CE64E1344127B72F5 /* WXYListView-prefix.pch */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "WXYListView/Pods/Target Support Files/WXYListView";
+			sourceTree = "<group>";
+		};
+		C2A6104667A8EE86F931A4A503FCD834 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2444BBE972727B4F97FA5F807DDA1CD4 /* Classes */,
+			);
+			name = Pod;
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		C98D81932AE57FF5C1B1F2D44873A37E /* Targets Support Files */ = {
@@ -141,23 +168,87 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E9C2E4B5F0C45FA3BD204475DCF80AB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F0EDD37A5D04A1D72394B29BD021408 /* libPods-WXYListView.a */,
+				F77AF4DF16C20CC54A478F2B8EDDB786 /* libWXYListView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA8CA67C660E0E145FE99A1010A63E0B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				15B0CCFBA885D0A329785C029ABE5094 /* 89.gif */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F11375D1166926FDBE9A6182D12569C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				44554EAA00ECEFC7275CE35EC24EA3E4 /* Pod */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		3F81BD66D090CF0B1C59866BBBF138B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04845B2364EB194AC8864A9BB2E2AA26 /* WXYListView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		451ADDAD7AD26B44BB7EC1CCA720AD5C /* Pods-WXYListView */ = {
+		54846EFA132BCF7FF6CBE5D7F70813E6 /* Pods-WXYListView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B911999F527A87F72C6FBFDCD1EDA54 /* Build configuration list for PBXNativeTarget "Pods-WXYListView" */;
+			buildConfigurationList = 6515D1DD435B96B6B999FE5C53778520 /* Build configuration list for PBXNativeTarget "Pods-WXYListView" */;
 			buildPhases = (
-				8952A2DC4C7DAEA0901184C26BA1CD99 /* Sources */,
-				15A476F0C3857894707705FD4B2ACD31 /* Frameworks */,
+				D157E32D3CE738FD1B39A209E0C2D01E /* Sources */,
+				616C15DE843BBF45C83899BE8B69E902 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59D294E59CE2373390CF99B0677CA710 /* PBXTargetDependency */,
+			);
+			name = "Pods-WXYListView";
+			productName = "Pods-WXYListView";
+			productReference = 4F0EDD37A5D04A1D72394B29BD021408 /* libPods-WXYListView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E39923B0D5FF42B5AD705B0EF5257FE4 /* WXYListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33852A71DA50132EF46AF8B1286DFDDF /* Build configuration list for PBXNativeTarget "WXYListView" */;
+			buildPhases = (
+				A545E48A4806BAC57D02267CF38AA55E /* Sources */,
+				87A4819EDBE115DE1D1FB6762573842F /* Frameworks */,
+				3F81BD66D090CF0B1C59866BBBF138B9 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-WXYListView";
-			productName = "Pods-WXYListView";
-			productReference = A0EF1A0EED1945E27C53039A77AFDBA1 /* libPods-WXYListView.a */;
+			name = WXYListView;
+			productName = WXYListView;
+			productReference = F77AF4DF16C20CC54A478F2B8EDDB786 /* libWXYListView.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -177,28 +268,69 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 22BAA5BCBD2A298B5949B3F0AEB8C4AA /* Products */;
+			productRefGroup = E9C2E4B5F0C45FA3BD204475DCF80AB4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				451ADDAD7AD26B44BB7EC1CCA720AD5C /* Pods-WXYListView */,
+				54846EFA132BCF7FF6CBE5D7F70813E6 /* Pods-WXYListView */,
+				E39923B0D5FF42B5AD705B0EF5257FE4 /* WXYListView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8952A2DC4C7DAEA0901184C26BA1CD99 /* Sources */ = {
+		A545E48A4806BAC57D02267CF38AA55E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E891A9C8CB7D6CE5F9DB9C04BDE7789E /* Pods-WXYListView-dummy.m in Sources */,
-				1C5E13501E83CC6A005B48A9 /* WXYListView.m in Sources */,
+				1EDB2EC7C3D7C8FF66CF0BF8639DBC34 /* WXYListView-dummy.m in Sources */,
+				18ADA70003B918BEA78AB2A4EE9633C4 /* WXYListView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D157E32D3CE738FD1B39A209E0C2D01E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB19CA89A1C28CAABB7574C549827C56 /* Pods-WXYListView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		59D294E59CE2373390CF99B0677CA710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WXYListView;
+			target = E39923B0D5FF42B5AD705B0EF5257FE4 /* WXYListView */;
+			targetProxy = 18CA9133D01C5CF29918295CE1AF4F4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		37182BD6CB54C14604E0ECDA3581ADE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C550462AEFCCA87309EBC2FCB7FDA1B4 /* WXYListView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WXYListView/WXYListView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -239,7 +371,30 @@
 			};
 			name = Release;
 		};
-		974975AE7C83136EA5ADFB5FAA8F5875 /* Release */ = {
+		8DECCA44DA9ABF6F840F9C056443DB7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AB88913C10F2FAF6A8CC919453FCF43 /* Pods-WXYListView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9CA8EC483223B85AB1BA024BB3550A43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3F96B49D4A4F4E5E69E806484EE00533 /* Pods-WXYListView.release.xcconfig */;
 			buildSettings = {
@@ -257,6 +412,29 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A9F2AE21E0BF0ACC09D67D2F2D93987C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C550462AEFCCA87309EBC2FCB7FDA1B4 /* WXYListView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WXYListView/WXYListView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -306,29 +484,6 @@
 			};
 			name = Debug;
 		};
-		D0B5CB37F8DFA9768A1A43BDD35A07E9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AB88913C10F2FAF6A8CC919453FCF43 /* Pods-WXYListView.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -341,11 +496,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B911999F527A87F72C6FBFDCD1EDA54 /* Build configuration list for PBXNativeTarget "Pods-WXYListView" */ = {
+		33852A71DA50132EF46AF8B1286DFDDF /* Build configuration list for PBXNativeTarget "WXYListView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0B5CB37F8DFA9768A1A43BDD35A07E9 /* Debug */,
-				974975AE7C83136EA5ADFB5FAA8F5875 /* Release */,
+				37182BD6CB54C14604E0ECDA3581ADE7 /* Debug */,
+				A9F2AE21E0BF0ACC09D67D2F2D93987C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6515D1DD435B96B6B999FE5C53778520 /* Build configuration list for PBXNativeTarget "Pods-WXYListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DECCA44DA9ABF6F840F9C056443DB7C /* Debug */,
+				9CA8EC483223B85AB1BA024BB3550A43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
