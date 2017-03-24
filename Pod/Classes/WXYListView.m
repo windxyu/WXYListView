@@ -14,7 +14,7 @@
 {
     if (self = [super init]) {
         self.frame = CGRectMake(10, 10, 100, 100);
-        self.backgroundColor = [UIColor greenColor];
+        self.backgroundColor = [UIColor blackColor];
     }
     return self;
 }
