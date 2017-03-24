@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "ViewController.h"
 
 @interface WXYListViewTests : XCTestCase
 
@@ -34,6 +35,13 @@
     [self measureBlock:^{
         // Put the code you want to measure the time of here.
     }];
+    NSLog(@"testPerformanceExample");
+}
+
+- (void)testViewController {
+    ViewController *vc = [[ViewController alloc] init];
+    XCTAssertNil(vc, @"view controller can be created.");
+//    XCTAssertNotNil(vc, @"view controller can't be created.");
 }
 
 @end

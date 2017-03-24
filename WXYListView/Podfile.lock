@@ -1,7 +1,11 @@
 PODS:
-  - WXYListView (1.0.0)
+  - Expecta (1.0.5)
+  - Specta (1.0.6)
+  - WXYListView (1.0.1)
 
 DEPENDENCIES:
+  - Expecta
+  - Specta
   - WXYListView (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,8 +13,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WXYListView: a7fe0b6ec8646d02e43a880149d678e80a54711b
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
+  WXYListView: edfa441bfc6a0be36729b7eefafa24461f6361fd
 
-PODFILE CHECKSUM: 854d35b3c52aea13f4e8bc6b2f1485937a5a9c1e
+PODFILE CHECKSUM: c14c0446d6e49f5e2824735b56f5d9084fc4e790
 
 COCOAPODS: 1.1.1

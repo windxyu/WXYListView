@@ -16,6 +16,7 @@
 		1C5E13301E83C80B005B48A9 /* WXYListViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5E132F1E83C80B005B48A9 /* WXYListViewTests.m */; };
 		1C5E133B1E83C80B005B48A9 /* WXYListViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5E133A1E83C80B005B48A9 /* WXYListViewUITests.m */; };
 		1DD5E58E63ABC9712484BB2C /* libPods-WXYListView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F1482A6361DEFF8FDDB479 /* libPods-WXYListView.a */; };
+		C3727B10F7684588A4BBDE38 /* libPods-WXYListViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B8336BA62A4DB1F8898CDA /* libPods-WXYListViewTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,9 @@
 		338B9C59F6F3FDD26AB9B475 /* Pods-WXYListView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXYListView.release.xcconfig"; path = "Pods/Target Support Files/Pods-WXYListView/Pods-WXYListView.release.xcconfig"; sourceTree = "<group>"; };
 		A5F1482A6361DEFF8FDDB479 /* libPods-WXYListView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WXYListView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0AF6B4D98C63A3CA3B3B64A /* Pods-WXYListView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXYListView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WXYListView/Pods-WXYListView.debug.xcconfig"; sourceTree = "<group>"; };
+		B24C7689201FD4CAC44843B0 /* Pods-WXYListViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXYListViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WXYListViewTests/Pods-WXYListViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		D7B8336BA62A4DB1F8898CDA /* libPods-WXYListViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WXYListViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E035FC343D76FE0389EFAB8D /* Pods-WXYListViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXYListViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WXYListViewTests/Pods-WXYListViewTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3727B10F7684588A4BBDE38 /* libPods-WXYListViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				A5F1482A6361DEFF8FDDB479 /* libPods-WXYListView.a */,
+				D7B8336BA62A4DB1F8898CDA /* libPods-WXYListViewTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -160,6 +166,8 @@
 			children = (
 				B0AF6B4D98C63A3CA3B3B64A /* Pods-WXYListView.debug.xcconfig */,
 				338B9C59F6F3FDD26AB9B475 /* Pods-WXYListView.release.xcconfig */,
+				E035FC343D76FE0389EFAB8D /* Pods-WXYListViewTests.debug.xcconfig */,
+				B24C7689201FD4CAC44843B0 /* Pods-WXYListViewTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -191,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C5E13421E83C80B005B48A9 /* Build configuration list for PBXNativeTarget "WXYListViewTests" */;
 			buildPhases = (
+				DD19AA0F37BAC8698DCC4707 /* [CP] Check Pods Manifest.lock */,
 				1C5E13271E83C80B005B48A9 /* Sources */,
 				1C5E13281E83C80B005B48A9 /* Frameworks */,
 				1C5E13291E83C80B005B48A9 /* Resources */,
+				D8652B736A38DDAB0B9F210A /* [CP] Embed Pods Frameworks */,
+				CB195166176F10017FDD6B65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -339,6 +350,51 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WXYListView/Pods-WXYListView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB195166176F10017FDD6B65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WXYListViewTests/Pods-WXYListViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8652B736A38DDAB0B9F210A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WXYListViewTests/Pods-WXYListViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD19AA0F37BAC8698DCC4707 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -521,6 +577,7 @@
 		};
 		1C5E13431E83C80B005B48A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E035FC343D76FE0389EFAB8D /* Pods-WXYListViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WXYListViewTests/Info.plist;
@@ -533,6 +590,7 @@
 		};
 		1C5E13441E83C80B005B48A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B24C7689201FD4CAC44843B0 /* Pods-WXYListViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WXYListViewTests/Info.plist;

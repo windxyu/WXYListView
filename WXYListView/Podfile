@@ -2,4 +2,10 @@ platform :ios, '7.0'
 
 target 'WXYListView' do
     pod "WXYListView", path: "../"
+    target "WXYListViewTests" do
+        inherit! :search_paths
+        
+        pod "Specta"
+        pod "Expecta"
+    end
 end
