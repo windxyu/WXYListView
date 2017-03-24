@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WXYListView"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "pull down refresh and paged load"
 
   # This description is used to generate tags and improve search results.
