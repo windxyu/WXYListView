@@ -18,8 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    WXYListView *listView = [[WXYListView alloc] initWithFrame:CGRectMake(10, 10, 100, 100)];
-    listView.backgroundColor = [UIColor redColor];
+    WXYListView *listView = [[WXYListView alloc] initWithList:nil];
     [self.view addSubview:listView];
 }
 

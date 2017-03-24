@@ -10,4 +10,6 @@
 
 @interface WXYListView : UIView
 
+- (instancetype)initWithList:(NSArray *)list;
+
 @end
